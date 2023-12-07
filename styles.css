@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.384);
+    height: 100vh;
+}
+
+.flex{
+    display: flex;
+}
+
+h3{
+    color: #FF7F00;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Cabeçalho */
+
+header{
+    padding: 30px 4%;
+    background-color: #FF7F00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .interface{
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #2f2f2f;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.10);
+}
+
+header nav.menu ul{
+    list-style-type: none;
+}
+
+header nav.menu ul li{
+    display: inline-block;
+    padding: 0 40px;
+    font-size: 20px;
+}
+
+header .interface .logo{
+    cursor: pointer;
+}
+
+/* CORPO DO SITE */
+
+section.area1{
+    padding: 30px 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.area2{
+    padding: 10px 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto{
+    padding: 15px 75px;
+}
+
+/* RODAPÉ */
+footer{
+    padding: 40px 4%;
+    margin-top: 40px;
+    background-color: #FF7F00;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+footer .linha-footer p i{
+    color: #fff;
+    font-size: 20px;
+}
+
+footer .linha-footer p a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*CSS PÁGINAS---------------------------------------------------------------------------------------------------------------------------------- */
+
+section.page{
+    padding: 30px 4%;
+}
+
+.txt-exp{
+    padding: 50px;
+}
+
+.txt-exp h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #FF7F00;
+}
+
+.txt-exp a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #FF7F00;
+}
+
+.txt-exp p{
+    font-size: 20px;
+    padding: 15px;
+    text-align: justify;
+}
+
+.txt-tech{
+    padding: 10px 0 0 0;
+}
+
+.txt-tech h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #FF7F00;
+}
+
+.txt-tech p{
+    font-size: 20px;
+    padding: 15px;
+    text-align: justify;
+}
+
+.txt-sobre{
+    padding: 50px;
+}
+
+.txt-sobre h2{
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: #FF7F00;
+}
+
+.txt-sobre p{
+    font-size: 20px;
+    padding: 15px;
+    text-align: justify;
+}
+
+.arquivo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
